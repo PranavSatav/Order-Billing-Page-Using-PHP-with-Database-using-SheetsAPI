@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+      <link rel="stylesheet" href="https://nubz.000webhostapp.com/restaurant/style.css">
+
+
+</head>
+<body>
+<div class="container">
+  <div class="content">
+      <div class="greeting">
+        <h1>Order Placed. Yay!</h1>
+       
+        <div class="redirecting">
+      <p>redirecting to origin in <span class="redirecting-time" id="redirect-time">13</span> seconds</p>
+    </div>
+      </div>
+ 
+      <div class="branding">
+       
+        
+      </div>
+    </div>
+  </div>
+
+  
+  <script>
+  var timeLimit = 12;
+var timer = setInterval(function(){
+  time = document.getElementById('redirect-time');
+  time.innerHTML = timeLimit;
+  timeLimit--;
+  if(timeLimit==-1){
+    redirectToOrigin();  
+  }
+},1000)
+
+function redirectToOrigin(){
+  clearInterval(timer);
+ window.location.assign("https://nubz.000webhostapp.com/restaurant/");
+}
+  </script>
+</body>
+</html>
