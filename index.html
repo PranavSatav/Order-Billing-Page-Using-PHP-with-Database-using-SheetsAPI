@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,900;1,500&display=swap');
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+display: none;}
+
+body {
+  font-family: "Muli";
+   background-image: url(""); /* The image used */
+   background-position: center; /* Center the image */
+}
+
+
+.right { 
+    float: right; 
+    width: 400px; 
+    
+   
+} 
+
+</style>
+</head>
+<body>
+<div class="flex flex-wrap">
+    <div class="w-full sm:w-7/12 mb-10">
+      <div class="container mx-auto h-full sm:p-10">
+        <nav class="flex px-4 justify-between items-center">
+          <div class="text-4xl font-bold">
+           Restaurant Order & Billing<span class="text-green-700">.</span>
+          </div>
+          
+        </nav>
+        <header class="container px-4 lg:flex mt-10 items-center h-full lg:mt-0">
+          <div class="w-full">
+             <div class="container">
+
+
+  <div class="row">
+    
+
+      
+   
+   
+    <div class="col-md-8 order-md-1"><hr/>
+      <h4 class="mb-3">Complete your Takeaway order!</h4> <div class="w-20 h-2 bg-green-700 my-4"></div>
+      <form action="mail.php" method="POST">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName"><b>Enter Full Name</b></label>
+            <input type="text" class="form-control" name="name" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+           <div class="col-md-6 mb-3">
+            <label for="zip"><b>Contact No.</b></label>
+            <input type="text" class="form-control" name="phone" placeholder="" required>
+            <div class="invalid-feedback">
+              Phone required.
+            </div>
+          </div>
+  
+        </div> 
+
+
+        <div class="mb-3">
+          <label for="email"><b>Email</b> <span class="text-muted">(you will recieve confirmation mail)</span></label>
+          <input type="email" class="form-control" name="email" placeholder="you@example.com">
+          <div class="invalid-feedback">
+            Please enter a valid email address for shipping updates.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address"><b>Address (Incl. Area & State)</b></label>
+          <input type="text" class="form-control" name="message" placeholder="1234 Main St" required>
+          <div class="invalid-feedback">
+            Please enter your shipping address.
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country"><b>Select Country</b></label>
+            
+             
+             <select class="custom-select d-block w-100" name="priority" size="1">
+<option value="India">India</option>
+<option value="Oman">Oman</option>
+
+</select>
+
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="state"><b>Select State</b></label>
+            
+             <select  class="custom-select d-block w-100" name="type" size="1">
+<option value="Maharashtra">Maharashtra</option>
+<option value="Muscat">Muscat</option>
+
+</select>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+         
+        </div>
+      
+      <hr class="mb-4">
+
+  
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="cc-name"><b>Message to seller</b></label>
+            <input type="text" class="form-control" name="website" placeholder="" required>
+            <small class="text-muted">How you want it to get delivered or any special instructions?</small>
+            <div class="invalid-feedback">
+              Name on card is required
+            </div>
+          </div>
+           <div class="col-md-5 mb-3">
+            <label for="country"><b>Mode of Payment</b></label>
+            
+             
+             <select class="custom-select d-block w-100" name="payment" size="1">
+<option value="Cash on Delivery">Cash on Delivery</option>
+
+
+</select>
+<small class="text-muted">Extra 50/- will be charged for COD</small>
+
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+     
+        </div>
+      
+        
+
+      <input class="bg-green-500 text-white text-2xl font-medium px-4 py-2 rounded shadow" type="submit" value="Place Order"> 
+       <br/> <br/>
+      </form>
+      
+    </div>
+  </div> 
+
+
+<div class="container">
+
+</div>
+
+           
+          </div></div>
+        </header>
+      </div>
+    </div>
+    
+    <div class="flex ">
+  
+    
+        
+        <header class="container px-4 lg:flex mt-10 items-center  lg:mt-0">
+          <div class="w-full">
+             <div class="container">
+    <hr/>
+    <h4 class="mb-3">Update User Database!</h4> <div class="w-20 h-2 bg-green-700 my-4"></div>
+    
+  <form data-spreadsheet-api="https://sheet2api.com/v1/bHeJJb0BQiNU/database/Sheet1">
+       
+   
+           
+            <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName"><b>Customer Name</b></label>
+            
+            <input type="text" class="form-control" name="Customer Name" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+           <div class="col-md-6 mb-3">
+            <label for="zip"><b>Table No.</b></label>
+            <input type="text" class="form-control" name="Table No." placeholder="" required>
+            <div class="invalid-feedback">
+             Table required.
+            </div>
+          </div>
+       
+          
+        </div> 
+           
+           
+  
+           
+      
+     <label><b>Enter Combo Details : </b></label>
+     
+
+     
+    <select class="custom-select d-block w-100" name="Combo Details">
+  <option value="Pizza + Fries (Medium)">Pizza + Fries (Medium)</option>
+  <option value="Cheese Cake + Coke (250ml)">Cheese Cake + Coke (250ml)</option>
+  <option value="Fries (Large)">Fries (Large)</option>
+  <option value="Lolipop + Chapati">Lolipop + Chapati</option>
+</select><br/>
+
+
+
+
+
+
+
+
+
+<label><b>Enter Extras (if applicable) : </b></label>
+    <input class="form-control" type="text" name="Extras" placeholder="Extra Details" /><br/>
+     <label><b>Enter Total Bill : </b></label>
+    <input type="text" class="form-control" name="Total Bill" placeholder="Total Bill" /> <br/>
+  <label for="Bill Status"> Bill Paid Via - </label>
+  <b> Card </b>:  <input type="radio" name="Bill Status" value="Card Paid">
+   <b> Cash </b>:  <input type="radio" name="Bill Status" value="Cash Paid">
+   
+   
+     &nbsp;&nbsp;&nbsp;
+     <input class="bg-green-500 text-white text-2xl font-medium px-4 py-2 rounded shadow" type="submit" onClick="alert('Database Updated Successfully')" value="Update Database">
+     <br/><br/>
+     <a class="pad" href="https://docs.google.com/spreadsheets/d/1nlrhGfMTdoIA_jyF0Ir24H3pmQrd19ddm0T6Tb4AZxI/edit#gid=0">Click here to see Database</a>
+    
+    
+</form>
+
+  </div></div></div></div>
+  
+
+
+<script src="https://sheet2api.com/v1/template.js"></script>
+<br/>
+    
+ 
+ <div class="right"> 
+  <p>Source Code Available on GitHub <br/> 2021 <b><span class="text-green-700">PranavSatav</span></b></p> 
+</div> 
+  <script>
+  
+  </script>
+</body>
+</html>

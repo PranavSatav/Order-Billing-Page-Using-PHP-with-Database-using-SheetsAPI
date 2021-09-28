@@ -1,0 +1,117 @@
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+display: none;}
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+:root{
+  font-size:45px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+  background:#FFFFFF; 
+  font-family:'Source Sans Pro',sans-seriff;
+  color:#042A2B;
+}
+.container{
+  width:100vw;
+  height:100vh;
+}
+.content{
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  height:90%;
+  padding:15px 25px;
+}
+.greeting{
+  text-align:left;
+}
+.greeting h1{
+  font-size:1.5rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+.greeting p{
+  font-size:0.78rem;
+  margin-bottom:0.3rem;
+  opacity:0.5;
+}
+.greeting a{
+  opacity:1;
+  color:#5eb1bf;
+  text-decoration:none;
+}
+.greeting p a:hover{
+  text-decoration:underline;
+}
+.redirecting p{
+  font-size:0.62rem;
+  margin:1rem auto 0.5rem auto;
+  opacity:0.6;
+}
+.redirecting-time{
+  background-color:#CDEDF6;
+  border-radius:50px;
+  font-weight:bold;
+  padding:5px 12px;
+}
+.branding{
+  margin-top:80px;
+  display:flex;
+  flex-direction:column;
+}
+.branding-infotext{
+  font-size:0.60rem;
+  text-align:center;
+  margin-bottom:5px;
+  opacity:0.6;
+}
+.branding-image{
+  width:420px;
+  padding:5px;
+}
