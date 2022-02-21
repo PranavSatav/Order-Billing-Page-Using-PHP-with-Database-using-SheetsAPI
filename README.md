@@ -10,7 +10,7 @@ I'm Pranav, a web developer from India
 - This solves it..Sends E-Mail to customers what and where they have ordered [customizable]..
 - Saves the Data to a google Sheet using API..
 
-## Skills
+## This Project is made using -
 - 👨‍💻 TypeScript, JavaScript, PHP, C#
 - ⚙️ Vue & TailWind
 - 👁️ SASS, CSS
